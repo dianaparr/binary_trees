@@ -5,7 +5,7 @@
  * using post-order traversal
  *
  * @tree: pointer to the root node of the tree to measure the height.
-
+ *
  * Return: If tree is NULL, your function must return 0
  */
 
