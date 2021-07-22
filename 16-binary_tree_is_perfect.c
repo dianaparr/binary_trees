@@ -17,7 +17,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	h = binary_tree_height(tree) - 1;
+	h = binary_tree_height(tree);
 	number_nodes = binary_tree_nodes(tree);
 	nodes_comparison = _pow_recursion(2, h + 1) - 1 == number_nodes;
 
@@ -96,7 +96,7 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 		return (0);
 
 	if (tree->left == NULL && tree->right == NULL)
-		return (0);
+		return (1);
 
 	if ((tree->left == NULL && tree->right != NULL) ||
 		(tree->left != NULL && tree->right == NULL))
