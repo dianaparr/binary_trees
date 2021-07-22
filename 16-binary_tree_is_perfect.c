@@ -14,6 +14,9 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	int number_nodes = 0;
 	int nodes_comparison = 0;
 
+	if (tree == NULL)
+		return (0);
+
 	h = binary_tree_height(tree) - 1;
 	number_nodes = binary_tree_nodes(tree);
 	nodes_comparison = _pow_recursion(2, h + 1) - 1 == number_nodes;
