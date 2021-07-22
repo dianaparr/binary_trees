@@ -26,7 +26,8 @@ const binary_tree_t *second)
 	}
 	if (fd == sd)
 	{
-		while (first->parent != NULL || second->parent != NULL)
+		while ((first->parent != NULL || second->parent != NULL) &&
+				(first != second))
 		{
 			if (first->parent == second->parent)
 				return (first->parent);
@@ -34,7 +35,6 @@ const binary_tree_t *second)
 			second = second->parent;
 		}
 	}
-
 	while (first->parent != NULL)
 	{
 		while (second->parent != NULL)
