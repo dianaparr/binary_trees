@@ -29,7 +29,7 @@ const binary_tree_t *second)
 		while (second->parent != NULL)
 		{
 			if (first == second)
-				return (first->parent);
+				return ((binary_tree_t*)(first));
 			if (first == second->parent)
 				return (second->parent);
 			if (second == first->parent)
