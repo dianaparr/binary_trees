@@ -23,7 +23,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	return (nodes_comparison);
 }
-
 /**
  * binary_tree_height - function that measures the height of a binary tree
  * using post-order traversal
@@ -44,16 +43,20 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	if (tree->left == NULL && tree->right == NULL)
 		return (0);
 
+	if (tree->left)
+		left_height = binary_tree_height(tree->left) + 1;
 	else
-	{
-		left_height = binary_tree_height(tree->left);
-		right_height = binary_tree_height(tree->right);
+		left_height = 0;
 
-		if (left_height > right_height)
-			return (left_height + 1);
-		else
-			return (right_height + 1);
-	}
+	if (tree->right)
+		right_height = binary_tree_height(tree->right) + 1;
+	else
+		right_height = 0;
+
+	if (left_height > right_height)
+		return (left_height);
+	else
+		return (right_height);
 }
 
 /**
