@@ -12,7 +12,7 @@
 ## Print function
 To match the examples in the tasks, you are given this [function](https://github.com/holbertonschool/0x1C.c)
 
-![Types of Binary Tree]()
+![Types of Binary Tree](https://github.com/Matteo-lu/binary_trees/blob/main/img/binary_tree.png)
 ## Tasks
 **[0. New node:](https://github.com/Matteo-lu/binary_trees/blob/main/0-binary_tree_node.c)**
 Write a function that creates a binary tree node
