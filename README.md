@@ -12,6 +12,7 @@
 ## Print function
 To match the examples in the tasks, you are given this [function](https://github.com/holbertonschool/0x1C.c)
 
+![Types of Binary Tree](https://github.com/Matteo-lu/binary_trees/blob/main/img/binary_tree.png)
 ## Tasks
 **[0. New node:](https://github.com/Matteo-lu/binary_trees/blob/main/0-binary_tree_node.c)**
 Write a function that creates a binary tree node
@@ -138,14 +139,14 @@ Write a function that checks if a binary tree is full
 * Where tree is a pointer to the root node of the tree to check
 * If tree is NULL, your function must return 0
 
-**[16. Is perfect:]()**
+**[16. Is perfect:](https://github.com/Matteo-lu/binary_trees/blob/main/16-binary_tree_is_perfect.c)**
 Write a function that checks if a binary tree is perfect
 
 * Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
 * Where tree is a pointer to the root node of the tree to check
 * If tree is NULL, your function must return 0
 
-**[17. Sibling:]()**
+**[17. Sibling:](https://github.com/Matteo-lu/binary_trees/blob/main/17-binary_tree_sibling.c)**
 Write a function that finds the sibling of a node
 
 * Prototype: binary_tree_t *binary_tree_sibling(binary_tree_t *node);
@@ -154,7 +155,7 @@ Write a function that finds the sibling of a node
 * If node is NULL or the parent is NULL, return NULL
 * If node has no sibling, return NULL
 
-**[18. Uncle:]()**
+**[18. Uncle:](https://github.com/Matteo-lu/binary_trees/blob/main/18-binary_tree_uncle.c)**
 Write a function that finds the uncle of a node
 
 * Prototype: binary_tree_t *binary_tree_uncle(binary_tree_t *node);
