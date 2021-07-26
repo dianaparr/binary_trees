@@ -3,7 +3,6 @@
 /**
  * binary_tree_depth - function that measures the depth
  * of a node in a binary tree
- * using post-order traversal
  *
  * @tree: pointer to the root node of the tree to measure the height.
  *
