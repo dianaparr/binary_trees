@@ -53,9 +53,13 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int _pow_recursion(int x, int y);
 
 /*Advanced tasks*/
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+const binary_tree_t *second);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
-void print_nodes_level_current(const binary_tree_t *tree, void (*func)(int), int level);
+void print_nodes_level_current(const binary_tree_t *tree, void (*func)(int),
+int level);
+int binary_tree_complete_check(const binary_tree_t *tree, int index,
+int number_nodes);
 int binary_tree_is_complete(const binary_tree_t *tree);
 
 #endif
