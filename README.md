@@ -163,3 +163,15 @@ Write a function that finds the uncle of a node
 * Your function must return a pointer to the uncle node
 * If node is NULL, return NULL
 * If node has no uncle, return NULL
+
+<br />
+
+## Design by:
+
+**:woman: Diana Parra**
+
+:green_book: [GitHub](https://github.com/dianaparr/)
+
+:bird: [Twitter](https://twitter.com/dianaparra017)
+
+:wave: [LinkedIn](https://www.linkedin.com/in/dev-diana-parra/)
